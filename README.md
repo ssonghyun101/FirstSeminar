@@ -1,16 +1,16 @@
 # FirstSeminar
-### 생명주기 사진
+## 생명주기 사진
 https://user-images.githubusercontent.com/81518783/114307035-d2051180-9b18-11eb-9d43-861707c97204.PNG
 
 ## 화면전환 후 데이터를 가져온 로직 정리
-# SignUpActivity
+##### SignUpActivity
 1. 아이디, 비밀번호에 입력된 값이 있는지 체크한다
 2. 입력된 값이 있을 경우
 3. 입력된 값을 String 값으로 받아준다
 4. Intent를 통해 SignUpAcivity -> SignInActivity로 전환할 때 putExtra를 통해 String 값을 전달한다
 5. SignInActivity로 이동
 6. 액티비티 실행 시getData()함수 실행
-GetData 함수 내용
+#### GetData 함수 내용
 6-1 intent를 받아온다
 6-2. hasExtra를 통해 intent로 받아온 값이 null인지 아닌지 체크한 후
 6-3. setText로 가져온 값을 띄워준다 
